@@ -1,0 +1,38 @@
+{
+  "name": "as-typed-array",
+  "version": "1.0.0",
+  "description": "Make any value an array, and maintain types",
+  "license": "MIT",
+  "author": {
+    "name": "Connor White",
+    "email": "connor.bcw@gmail.com",
+    "url": "https://connorwhite.org"
+  },
+  "homepage": "https://connorwhite.org/github/as-typed-array",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bconnorwhite/as-typed-array.git"
+  },
+  "keywords": [],
+  "files": [
+    "build"
+  ],
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "bob build",
+    "lint": "bob lint",
+    "postversion": "git push --tags",
+    "prepublishOnly": "yarn run lint && yarn run build && yarn run test",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@bconnorwhite/bob": "^2.3.0",
+    "jest": "^26.4.2"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-bob"
+  },
+  "npmpackagejsonlint": {
+    "extends": "npm-package-json-lint-config-bob"
+  }
+}
