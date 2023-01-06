@@ -1,4 +1,5 @@
-const asArray = require("../build")["default"];
+import { test, expect } from "@jest/globals";
+import asArray from "../source/index.js";
 
 test("array", () => {
   expect(asArray(["ok"])[0]).toBe("ok");
