@@ -1,10 +1,8 @@
 
-export default function asArray<T>(any: (T | T[])): T[] {
-  if(any === undefined) {
-    return [];
-  } else if(Array.isArray(any)) {
-    return any;
+export default function asArray<A>(any: A): A extends Array<any> ? A : A[] {
+  if(Array.isArray(any)) {
+    return any as A extends Array<any> ? A : A[];
   } else {
-    return [any];
+    return (any ? [any] : []) as A extends Array<any> ? A : A[];
   }
 }
