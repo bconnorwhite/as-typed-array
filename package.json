@@ -1,6 +1,6 @@
 {
   "name": "as-typed-array",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Make any value an array",
   "main": ".auto/build/index.js",
   "author": "Connor White",
