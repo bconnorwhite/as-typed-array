@@ -1,3 +1,12 @@
+## [3.0.1](https://github.com/bconnorwhite/as-typed-array/compare/v3.0.0...v3.0.1) (2023-01-10)
+
+
+### Bug Fixes
+
+* type fixes ([8de997d](https://github.com/bconnorwhite/as-typed-array/commit/8de997dfc7fa154e84e0150b77d47c42fa40d51d))
+
+
+
 # [3.0.0](https://github.com/bconnorwhite/as-typed-array/compare/v2.0.0...v3.0.0) (2023-01-10)
 
 
