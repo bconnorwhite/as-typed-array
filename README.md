@@ -56,6 +56,13 @@ asArray({ ok: true }); // [{ ok: true }]
 asArray(undefined); // [];
 ```
 
+```ts
+import { isArray } from "as-typed-array";
+
+isArray(["ok"]); // true
+isArray("ok"); // false
+```
+
 <!--BEGIN FOOTER-->
 
 <br />

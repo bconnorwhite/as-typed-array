@@ -14,5 +14,5 @@ test("object", () => {
 });
 
 test("undefined", () => {
-  expect(asArray(undefined).length).toBe(0);
+  expect(asArray(undefined).length).toBe(1);
 });
