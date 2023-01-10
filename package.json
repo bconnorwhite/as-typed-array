@@ -17,7 +17,7 @@
     "typed"
   ],
   "exports": "./.auto/build/index.js",
-  "types": ".auto/build/index.d.js",
+  "types": ".auto/build/index.d.ts",
   "files": [
     ".auto/build/**/!(tsconfig.tsbuildinfo)"
   ],
